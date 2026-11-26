@@ -10,7 +10,7 @@ window.KAFE = {
   fiyatlarOrnek: false,
   paraBirimi: "₺",
   besinNot: "Besin değerleri yaklaşık değerlerdir.",
-  tablo: { url: "", zamanAsimi: 4000, onbellekAnahtari: "menu-tablo-petek" },
+  tablo: { url: "https://docs.google.com/spreadsheets/d/1PmIf8MpwgaaecxYrnDTSTCMYkA0Rd9xtAMifGz9_jaQ/gviz/tq?tqx=out:csv&gid=0", zamanAsimi: 2500, onbellekAnahtari: "menu-tablo-petek" },
   gununUrunu: null,
   ozelGunler: [
     { ad: "Yılbaşı", bas: "12-25", bit: "01-01", not: "Yılbaşı pastası siparişleri alınır.", vurgu: "" },
