@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#120D08">
+<title>Menü</title>
+<link rel="preload" href="fonts/young-serif-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+<div class="sahne yukleniyor" id="sahne">
+  <div class="zemin-katman" aria-hidden="true"><img class="zk-foto" alt=""><span class="zk-doku"></span><span class="zk-isik"></span><span class="zk-bokeh"></span></div>
+  <section class="ekran vitrin-ekran" id="vitrin" aria-label="Vitrin">
+    <header class="ust"><div class="marka" id="marka"></div></header>
+    <div class="vitrin-orta">
+      <p class="not" id="not"></p>
+      <div class="gozler" id="gozler"></div>
+      <p class="ipucu">Bir bölüme dokun.</p>
+    </div>
+    <button class="sade-dugme" id="sade-dugme" type="button" data-is="sade"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 6h8M3 10h8M3 14h8"/><path class="n" d="M14 6h3M14 10h3M14 14h3"/></svg>Tüm menü</button>
+    <p class="adres" id="adres"></p>
+  </section>
+  <div class="perde" id="perde" aria-hidden="true"></div>
+  <section class="ekran bolum-ekran" id="bolum"></section>
+  <section class="ekran yap-ekran" id="yap" aria-labelledby="yap-ad"></section>
+  <section class="ekran yildiz-ekran" id="yildiz" role="dialog" aria-modal="true"></section>
+  <div class="ekran panel" id="panel"></div>
+  <section class="ekran sade-ekran" id="sade"></section>
+  <p class="veri-uyari">Menü verisi bulunamadı (veri klasörü).</p>
+</div>
+<script src="js/app.js"></script>
+<script src="js/imlec-ari.js"></script>
+<script src="js/tablo.js"></script>
+<script src="js/yukle.js" data-veri="petek"></script>
+</body>
+</html>
