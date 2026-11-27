@@ -381,9 +381,9 @@ a.goze-logo{color:inherit;text-decoration:none;cursor:pointer}
    ============================================================ */
 .ek-sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 .besin{min-width:0}
-.b-kcal{font:400 21px/1.1 var(--fb);color:var(--krem);font-variant-numeric:lining-nums}
-.b-br{font:500 .6em/1 var(--fg);letter-spacing:.02em;color:var(--krem-2)}
-.b-ogeler{display:flex;flex-wrap:wrap;gap:1px .8em;margin-top:5px;font-size:12.5px;line-height:1.4;color:var(--krem)}
+.b-kcal{font:400 14px/1.1 var(--fb);color:var(--krem);font-variant-numeric:lining-nums}
+.b-br{font:500 .8em/1 var(--fg);letter-spacing:.02em;color:var(--krem-2)}
+.b-ogeler{display:flex;flex-wrap:wrap;gap:1px .8em;margin-top:5px;font-size:11.5px;line-height:1.4;color:var(--krem)}
 .b-oge{white-space:nowrap}
 .b-oge dt,.b-oge dd{display:inline}
 .b-oge dt{color:var(--krem-2)}
@@ -400,13 +400,13 @@ a.goze-logo{color:inherit;text-decoration:none;cursor:pointer}
 .dv-detay.tek .b-por{max-width:30ch;margin-left:auto;margin-right:auto}
 /* panel ve yıldız ürün: fiyatın altında, aynı dil */
 .p-govde .besin{margin-top:14px;padding-top:12px;border-top:1px solid var(--krem-3)}
-.p-govde .b-ogeler{font-size:13.5px}
-.p-govde .b-por{font-size:12px}
+.p-govde .b-ogeler{font-size:12.2px}
+.p-govde .b-por{font-size:11px}
 /* yıldız ürün fotoğrafın altına sığsın diye tek satır: kalori ve öğeler yan yana, altında bildirim */
 .fs-alt .besin{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px .9em;margin:-6px 0 16px;text-shadow:0 1px 6px rgba(0,0,0,.6)}
-.fs-alt .b-kcal{font-size:19px}
-.fs-alt .b-ogeler{margin-top:0;font-size:13px}
-.fs-alt .b-por{flex-basis:100%;margin-top:2px;font-size:11.5px;color:var(--krem-2)}
+.fs-alt .b-kcal{font-size:13px}
+.fs-alt .b-ogeler{margin-top:0;font-size:11.7px}
+.fs-alt .b-por{flex-basis:100%;margin-top:2px;font-size:11px;color:var(--krem-2)}
 /* bölüm listesi: fiyatın altında küçük kcal */
 .s-fiyat.kcalli{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
 .s-kcal{font-size:12px;line-height:1;color:var(--krem-2);white-space:nowrap}

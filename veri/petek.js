@@ -69,7 +69,7 @@ window.KAFE = {
     { id: "zebra-kek", bolum: "mini-tatlilar", ad: "Zebra Kek", aciklama: "", fiyat: 50, birim: "", foto: "gorsel/petek/zebra-kek.webp", yildiz: false, besin: { kcal: 246, yag: 10.9, protein: 3.3, porsiyon: "1 dilim (yaklaşık 60 g)" } },
     { id: "antep-fistikli-fransiz-tatlisi", bolum: "mini-tatlilar", ad: "Antep Fıstıklı Fransız Tatlısı", aciklama: "Cédric Grolet tarzı", fiyat: 250, birim: "", foto: "gorsel/petek/antep-fistikli-fransiz-tatlisi.webp", yildiz: false },
     { id: "supangle", bolum: "mini-tatlilar", ad: "Supangle", aciklama: "", fiyat: 200, birim: "", foto: "gorsel/petek/supangle.webp", yildiz: false, besin: { kcal: 284, yag: 9.2, seker: 34, protein: 4.2, porsiyon: "1 kase (yaklaşık 200 g)" } },
-    { id: "profiterol", bolum: "mini-tatlilar", ad: "Profiterol", aciklama: "", fiyat: null, birim: "", foto: "gorsel/petek/profiterol.webp", yildiz: false },
+    { id: "profiterol", bolum: "mini-tatlilar", ad: "Profiterol", aciklama: "", fiyat: 250, birim: "", foto: "gorsel/petek/profiterol.webp", yildiz: false },
 
     { id: "firin-sutlac", bolum: "sutlu-serbetli", ad: "Fırın Sütlaç", aciklama: "fındık, fıstık, toprak kapta", fiyat: 200, birim: "", foto: "gorsel/petek/firin-sutlac.webp", yildiz: false, besin: { kcal: 272, yag: 12.3, protein: 5.5, porsiyon: "1 kase (yaklaşık 200 g)" } },
     { id: "magnolya", bolum: "sutlu-serbetli", ad: "Magnolya", aciklama: "", fiyat: 200, birim: "", foto: "gorsel/petek/magnolya.webp", yildiz: false, besin: { kcal: 374, yag: 16.2, protein: 5.7, porsiyon: "1 kase (yaklaşık 200 g)" } },
